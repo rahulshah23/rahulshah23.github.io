@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="main.js"></script>
+        <title>Contact | Mirage Barber Shop</title>
+    </head>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div class="topnav" id="topnav"></div>
+<div class="covid">
+    <h3 >COVID-19 UPDATE</h3>
+    <p>As of June 11th, Mirage Barbershop will open again to customers! We want to thank you for your patience during these unprecented times and are excited to open back up. All customers MUST wear a mask.</p>
+
+</div>
+<div class="main-container">
+    <div class="main-content">
+        <h2 style="text-align: center;color: white">Contact Mirage Barbershop!</h2>
+    </div>
+</div>
+<div class="container">
+    <form action="save-contacts.php" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Your last name.." required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+                <h1>Mirage Barber</h1>
+                <p>42 street, Miami, USA</p>
+                <p>+1234567899</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" id="footer">
+</div>
+</body>
+</html>
